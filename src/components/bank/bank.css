@@ -1,0 +1,48 @@
+body {
+    font-size: 20px;
+}
+.header {
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px;
+}
+
+.main {
+    height: 550px;    
+    padding-top: 130px;
+    /* grid-template-columns: 1fr 6fr; */
+}
+
+.nav {
+    background-color: rgba(115, 110, 192, 0.466);
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(160, 157, 195, 0.466);
+}
+
+.footer {
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.CustomChatbot {
+    bottom: 0;
+    right : 0;
+    position: fixed;
+    width: 350px;
+}
+
+.btn {
+    font-size: 30px;
+    float: right;
+    width: 30%;
+    padding: 8px;
+    border-radius: 45%;
+    background-color: rgb(6, 153, 252)
+}
